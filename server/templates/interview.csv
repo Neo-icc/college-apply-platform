@@ -1,0 +1,4 @@
+约谈ID,学生ID,约谈时间,参与人,主题,纪要,决议,状态,家长确认时间
+id,studentId,date,participants,topic,summary,decisions,status,parentConfirmedAt
+★必填 约谈唯一ID，如 IV001,★必填 关联「学生档案」的学生ID,★必填 【日期时间 YYYY-MM-DD HH:mm】约谈时间,★必填 多值用 ; 分隔，如 张子轩; 张建国; 李胜,★必填 约谈主题,★必填 约谈纪要,"★必填 【JSON 字符串】JSON字符串数组，如 [""冻结选校方案 V1.0"",""10 月底前完成 MAT 辅导""]",★必填 scheduled 已安排 / completed 已完成 / parent_confirmed 家长已确认,选填 【日期 YYYY-MM-DD】家长确认时间
+IV001,S001,2026-10-07 14:00,张子轩; 张建国; 李胜,选校方案确认,确认 5 所院校清单，牛津为冲刺目标，需重点准备 MAT 笔试。,"[""冻结选校方案 V1.0"",""10 月底前完成 MAT 辅导""]",parent_confirmed,2026-10-08

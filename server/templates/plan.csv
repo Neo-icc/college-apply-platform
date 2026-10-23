@@ -1,0 +1,4 @@
+方案ID,学生ID,版本号,院校清单,方案状态,创建时间,冻结时间,备注
+id,studentId,version,schools,status,createdAt,frozenAt,note
+★必填 方案唯一ID，如 PV001,★必填 关联「学生档案」的学生ID,★必填 版本号，如 V1.0,"★必填 【JSON 字符串】JSON数组：[{""name"":""曼彻斯特大学"",""region"":""UK"",""major"":""计算机科学"",""tier"":""match""}]；tier=reach/match/safety",★必填 draft 草稿 / frozen 已冻结 / superseded 已替代,★必填 【日期 YYYY-MM-DD】创建日期,选填 【日期 YYYY-MM-DD】冻结日期（未冻结可空）,选填 备注
+PV001,S001,V1.0,"[{""name"":""牛津大学"",""region"":""UK"",""major"":""计算机科学"",""tier"":""reach""},{""name"":""曼彻斯特大学"",""region"":""UK"",""major"":""计算机科学"",""tier"":""match""}]",frozen,2026-10-02,2026-10-08,家长确认后冻结

@@ -1,0 +1,4 @@
+核对卡ID,院校名称,专业,地区,要求明细,核实时间,核实人
+id,schoolName,major,region,requirements,verifiedAt,verifiedBy
+★必填 核对卡唯一ID，如 RC001,★必填 院校名称,★必填 专业名称,★必填 UK / HK / AU / CA,"★必填 【JSON 字符串】JSON数组：[{""item"":""A-Level"",""value"":""A*AA"",""source"":""官网"",""confidence"":""high""}]；confidence=high/medium/low",★必填 【日期 YYYY-MM-DD】核实日期,★必填 核实人姓名
+RC001,曼彻斯特大学,计算机科学,UK,"[{""item"":""A-Level"",""value"":""A*AA"",""source"":""官网 2026 招生页"",""confidence"":""high""},{""item"":""IELTS"",""value"":""6.5（单项 6.0）"",""source"":""官网"",""confidence"":""high""}]",2026-10-01,李胜

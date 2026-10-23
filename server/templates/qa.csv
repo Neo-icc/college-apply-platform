@@ -1,0 +1,4 @@
+问答ID,学生ID,学生姓名,问题,提问时间,提问人,状态,答复,答复时间,答复人,引用口径编号,SLA(小时)
+id,studentId,studentName,question,askedAt,askedBy,status,answer,answeredAt,answeredBy,caliberCode,slaHours
+★必填 问答唯一ID，如 QA001,★必填 关联「学生档案」的学生ID,★必填 学生姓名（冗余字段）,★必填 家长提问内容,★必填 【日期时间 YYYY-MM-DD HH:mm】提问时间,★必填 提问人（家长姓名）,★必填 pending 待答复 / answered 已答复 / overdue 超时,选填 答复内容,选填 【日期时间 YYYY-MM-DD HH:mm】答复时间,选填 答复人姓名,选填 引用口径编号，如 K-003,★必填 【数字】SLA 时长（小时，整数，通常 24）
+QA001,S001,张子轩,UCAS PS 字数限制是多少？,2026-10-17 10:30,张建国,answered,4000 字符/47 行，建议控制在 3500-3900 字符。参考口径 K-003。,2026-10-17 11:10,李胜,K-003,24

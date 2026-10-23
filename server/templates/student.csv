@@ -1,0 +1,4 @@
+学生ID,姓名,年级,目标地区,当前学校,GPA,语言成绩,家长姓名,家长手机,家长unionId,顾问,入学时间,标签
+id,name,grade,targetRegion,currentSchool,gpa,languageScores,parentName,parentPhone,parentUserId,advisorName,enrolledAt,tags
+★必填 学生唯一ID，如 S001,★必填 学生姓名,★必填 G10 / G11 / G12,★必填 多值用 ; 分隔，取值 UK / HK / AU / CA，如 UK; HK,★必填 当前就读学校,选填 GPA 文本，如 3.8/4.0,选填 多值用 ; 分隔，每条「类型 分数 [日期]」，如 IELTS 7.0 2026-06-10; A-Level A*AA,★必填 家长姓名,★必填 家长手机号,选填 家长钉钉 unionId（消息推送用）,★必填 负责顾问姓名,★必填 【日期 YYYY-MM-DD】入学/建档日期,选填 多值用 ; 分隔，如 高GPA; 信息学竞赛
+S001,张子轩,G11,UK; HK,石家庄二中,3.8/4.0,IELTS 7.0 2026-06-10; A-Level A*AA,张建国,13800138000,ding_user_zhang,李胜,2026-09-01,高GPA; 信息学竞赛

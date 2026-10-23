@@ -1,0 +1,4 @@
+院校ID,院校名称,英文名,地区,QS排名,标识色
+id,name,nameEn,region,qsRank,logoColor
+★必填 院校唯一ID，如 U001,★必填 院校中文名,★必填 院校英文名,★必填 UK / HK / AU / CA,选填 【数字】QS 排名（整数）,选填 标识色 #RRGGBB
+U001,曼彻斯特大学,University of Manchester,UK,34,#006837

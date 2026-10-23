@@ -1,0 +1,4 @@
+录取ID,学生ID,学生姓名,院校名称,专业,地区,录取结果,奖学金,收到时间,家长已知悉,知悉时间
+id,studentId,studentName,schoolName,major,region,result,scholarship,receivedAt,parentKnown,parentKnownAt
+★必填 录取唯一ID，如 AD001,★必填 关联「学生档案」的学生ID,★必填 学生姓名（冗余字段）,★必填 录取院校名称,★必填 录取专业,★必填 UK / HK / AU / CA,★必填 offer 录取 / rejected 拒录 / waiting 候补 / pending 待定,选填 奖学金说明,★必填 【日期 YYYY-MM-DD】收到日期,★必填 【布尔 true/false】家长是否已知悉,选填 【日期 YYYY-MM-DD】家长知悉时间
+AD001,S003,王浩然,爱丁堡大学,计算机科学,UK,offer,"£2,000/年",2026-10-19,true,2026-10-20

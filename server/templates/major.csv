@@ -1,0 +1,4 @@
+专业ID,专业名称,英文名,分类,地区
+id,name,nameEn,category,region
+★必填 专业唯一ID，如 MJ001,★必填 专业中文名,★必填 专业英文名,★必填 自由文本：STEM / 商科 / 人文 / 艺术 / 社科,★必填 UK / HK / AU / CA
+MJ001,计算机科学,Computer Science,STEM,UK

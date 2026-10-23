@@ -1,0 +1,4 @@
+工单ID,学生ID,学生姓名,年级,模板类型,工单状态,创建时间,主顾问,备顾问,当前节点序号,进度,最后更新,家长账号
+id,studentId,studentName,grade,template,status,createdAt,advisorName,backupAdvisorName,currentNodeIndex,progress,lastUpdatedAt,parentUserId
+★必填 工单唯一ID，如 WO001,★必填 关联「学生档案」的学生ID，如 S001,★必填 学生姓名（冗余字段，便于列表展示）,★必填 G10 / G11 / G12,★必填 full=23节点完整流程 / emergency=8节点应急,★必填 active 进行中 / frozen 冻结 / closed 关闭,★必填 【日期 YYYY-MM-DD】创建日期,★必填 主顾问姓名,选填 备顾问姓名,★必填 【数字】当前节点序号（整数，从 1 开始）,★必填 【数字】整体进度 0-100 的整数,★必填 【日期 YYYY-MM-DD】最后更新日期,选填 家长钉钉 unionId（消息推送用）
+WO001,S001,张子轩,G11,full,active,2026-09-21,李胜,小雪,4,18,2026-10-21,ding_user_zhang

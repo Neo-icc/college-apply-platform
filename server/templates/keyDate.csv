@@ -1,0 +1,4 @@
+日期ID,标题,日期,地区,类型,是否已核实,核实时间,备注
+id,title,date,region,type,verified,verifiedAt,note
+★必填 关键日期唯一ID，如 D001,★必填 标题，如 UCAS 常规截止,★必填 【日期 YYYY-MM-DD】日期,选填 UK / HK / AU / CA（全局事项可空）,★必填 deadline 截止 / exam 考试 / event 活动 / maintenance 巡检,★必填 【布尔 true/false】是否已核实,选填 【日期 YYYY-MM-DD】核实日期,选填 备注
+D001,牛津/剑桥申请截止,2026-10-15,UK,deadline,true,2026-10-01,医学、兽医、牙医专业同步截止

@@ -1,0 +1,4 @@
+模板节点ID,序号,模板类型,节点名称,节点说明,负责角色,时长(天),需家长确认,分类,交付物
+id,index,template,name,description,owner,durationDays,requiresParentConfirm,category,deliverable
+★必填 模板节点ID，如 f-01,★必填 【数字】节点序号（整数，从 1 开始）,★必填 full / emergency,★必填 节点名称，如 建档与基线评估,选填 节点说明（一句话）,★必填 advisor / essay_teacher / application_teacher / visa_teacher / parent / student,★必填 【数字】标准时长（天，整数）,★必填 【布尔 true/false】是否需要家长确认,★必填 planning / materials / essay / application / visa / followup,选填 交付物名称
+f-01,1,full,建档与基线评估,学生档案建立、基线成绩评估、目标地区确认,advisor,3,false,planning,学生基线评估表

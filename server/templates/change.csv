@@ -1,0 +1,4 @@
+变更ID,学生ID,工单ID,变更类型,变更前,变更后,连锁影响,审批状态,审批人,家长确认时间,创建时间,操作人
+id,studentId,workOrderId,type,from,to,impact,status,approvedBy,parentConfirmedAt,createdAt,operator
+★必填 变更唯一ID，如 CH001,★必填 关联「学生档案」的学生ID,选填 关联「工单」的工单ID,★必填 自由文本：选校变更 / 紧急加申 / 专业变更 / 截止日延期,★必填 变更前内容,★必填 变更后内容,★必填 连锁影响说明（需同步的节点/文书）,★必填 pending_approval 待审批 / approved 已通过 / rejected 已驳回 / parent_confirmed 家长已确认,选填 审批人姓名,选填 【日期 YYYY-MM-DD】家长确认时间,★必填 【日期 YYYY-MM-DD】创建日期,★必填 操作人姓名
+CH001,S001,WO001,选校变更,华威大学（计算机）,布里斯托大学（计算机）,需补充布里斯托 PS 针对性内容，预计 3 天,parent_confirmed,李胜,2026-10-14,2026-10-12,李胜
